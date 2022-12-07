@@ -1,0 +1,90 @@
+body {
+    background-color: #e3d4d3;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+div.calc {
+    width: 50vh;
+    height: 65vh;
+    background-color: #211c1c;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+.empty {
+    width: 90%;
+    height: 15vh;
+}
+.empty1 {
+    width: 85%;
+    margin: 5%;
+    text-align: end;
+}
+
+.button_row1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+}
+.button_row2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+}
+.button_row3 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+}
+.button_row4 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+}
+.button_row5 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+    margin-bottom: 5%;
+}
+
+.b {
+    width: 80%;
+    height: 5vh;
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.but_1, .but_2 , .but_9, .but_div, .but_mul {
+    width: 35%;
+}
