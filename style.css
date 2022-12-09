@@ -7,9 +7,10 @@ body {
     justify-content: center;
     padding: 10% 0;
 }
+
 div.calc {
     width: 50vh;
-    height: 65vh;
+    height: 70vh;
     background-color: #211c1c;
     color: white;
     font-size: 20px;
@@ -28,6 +29,7 @@ div.calc {
     width: 85%;
     margin: 5%;
     text-align: end;
+    font-size: 36px;
 }
 
 .button_row1 {
